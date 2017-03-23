@@ -531,7 +531,7 @@ define(['angular', 'services'], function (angular, services) {
                 var item = {
                     name: data.user.name,
                     password: data.user.password,
-                    quota: data.user.quota * 1024 * 1024
+                    quota: data.user.quota
                 };
                 Users.create(item);
             });
